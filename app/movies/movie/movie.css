@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.movie-main {
+    /* background-color: white; */
+    width: 23%;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.movie-img img {
+    width: 306px;
+    height: 160px;
+    object-fit: unset;
+    /* border-radius: 10px; */
+    /* margin-top: 10px; */
+}
+
+.movie-content {
+    text-align: center;
+}
+
+.movie-content span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-transform: uppercase;
+}

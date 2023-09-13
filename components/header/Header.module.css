@@ -1,0 +1,85 @@
+
+.logo {
+    width: 150px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #03a9f4;
+    height: 50px;
+    align-items: center;
+    padding: 0 40px;
+    gap: 50px;
+}
+
+.nav_menu {
+    flex: 1;
+}
+.nav_menu nav > ul {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.nav_menu nav > ul > li {
+    position: relative;
+    padding: 14px 10px;
+} 
+
+.nav_menu nav > ul > li:hover {
+    background: #00ffff3d;
+}
+
+.nav_menu nav > ul > li > ul {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background: white;
+    color: black;
+    padding: 20px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 460px;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.12),
+    0px 1px 2px 0px rgba(0,0,0,0.24);
+    opacity: 0;
+    visibility: hidden;
+    height: fit-content;
+}
+
+.nav_menu nav > ul > li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav_menu nav > ul > li > ul > li {
+    width: 215px;
+    padding: 0px 0 0 15px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.nav_menu nav > ul > li > ul  > li:hover {
+    background: #0000ff1c;
+}
+
+.nav_right > ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_right > ul > li > a {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav_right > ul > li > a  > svg{
+    width: 15px;
+    color: white;
+}

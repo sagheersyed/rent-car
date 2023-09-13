@@ -1,0 +1,10 @@
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.movies-section {
+    background-color: #181818;
+}
